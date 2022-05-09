@@ -1,10 +1,10 @@
 {
   "name": "sysinfo",
-  "productName": "About Candella",
+  "productName": "About ChadOS",
   "id": "dev.unscriptedvn.candella.sysinfo",
-  "author": "Project Alice <hello@aliceos.app>, Unscripted VN Team <unscriptedvn@marquiskurt.net>",
-  "version": "1.1.0",
-  "description": "View system information about Candella.",
+  "author": "Gelato Labs <hello@gelatolabs.xyz>",
+  "version": "1.0.0",
+  "description": "View system information about ChadOS.",
   "license": "BSD-2-Clause",
   "permissions": [],
   "requisites": ["AppKit", "Observable", "ScreenKit"]

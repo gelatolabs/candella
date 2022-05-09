@@ -26,11 +26,11 @@ screen ThoraxStepScreen(name, detail, show_input=False):
     key "K_RETURN" action return_action
 
     if not ca_supports_blur():
-        add "System/Library/Desktop Pictures/McWay Falls.png" at blur, truecenter:
+        add "System/Library/Desktop Pictures/Bliss.png" at blur, truecenter:
             size (1280, 720)
             fit "cover"
     else:
-        add "System/Library/Desktop Pictures/McWay Falls.png" at truecenter:
+        add "System/Library/Desktop Pictures/Bliss.png" at truecenter:
             blur CABlurType["strong"]
             size (1280, 720)
             fit "cover"

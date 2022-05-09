@@ -40,7 +40,7 @@ screen CelesteLauncher(apps):
             button action Function(celeste.drawer):
                 xysize (78, 78)
 
-                add "#FC9856"
+                add "#00FF00"
 
                 add celeste.get_distributor_logo():
                     size (64, 64)

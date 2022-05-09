@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Candella")
+define config.name = _("Chad Island HD")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -30,13 +30,9 @@ define config.version = AS_SYS_INFO["VERSION"] if "AS_SYS_INFO" in vars() else "
 ## between paragraphs, write \n\n.
 
 define gui.about = _("""\
-© 2018-2021 Project Alice and Unscripted VN Team.
+© 2022 Gelato Labs.
 
-Candella is a refreshed fork of the {a=https://aliceos.app}AliceOS{/a} operating environment.
-
-Running the game as-is will let you demo some of Candella's features, such as the Desktop and userland applications.
-
-AliceOS/Candella is free and open-source software, licensed under the BSD-2-Clause license.
+Chad Island HD is free and open-source software, licensed under the BSD-2-Clause license.
 """)
 
 
@@ -44,8 +40,8 @@ AliceOS/Candella is free and open-source software, licensed under the BSD-2-Clau
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Candella"
-define build.executable_name = "CandellaDemo"
+define build.name = "ChadIslandHD"
+define build.executable_name = "ChadIslandHD"
 
 
 ## Sounds and music ############################################################
@@ -168,7 +164,7 @@ init python:
         build.directory_name + "System",
         'zip',
         "candella_system",
-        description="Candella System Distributable"
+        description="ChadOS System Distributable"
     )
 
     build.archive("candella", "all candella_system")

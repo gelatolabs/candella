@@ -24,7 +24,7 @@ init python:
         _wall_display_mode = "cover"
         _dock = []
         _drawer_open = False
-        _current_app_name = "Celeste Desktop"
+        _current_app_name = "ChadOS"
         _acct_switcher_open = False
 
         def __init__(self):
@@ -221,7 +221,7 @@ init python:
             if "application_launched" in args:
                 self._current_app_name = kwargs["name"]
             elif "application_terminated" in args:
-                self._current_app_name = "Celeste Desktop"
+                self._current_app_name = "ChadOS"
 
             # Handle app pinning from the App Manager.
             elif "__appman_pin" in args:

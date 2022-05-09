@@ -38,10 +38,7 @@ screen ASSysInfoView():
                             style "ASSysInfoVersion_text"
                         text "{=ASSysInfoProperty_text_bold}Distribution Channel{/}: [AS_SYS_INFO[CHANNEL]]":
                             style "ASSysInfoProperty_text"
-                        null height 16
-                        text "{=ASSysInfoProperty_text_bold}Built for Ren'Py{/} [renpy.version_only]":
-                            style "ASSysInfoProperty_text"
                         null height 24
-                        text _("© 2018-2021 Project Alice and UnscriptedVN team.\n[AS_SYS_INFO[NAME]] is free and open-source software licensed under the BSD 2-Clause License."):
+                        text _("© 2022 Gelato Labs.\n[AS_SYS_INFO[NAME]] is free and open-source software licensed under the BSD 2-Clause License."):
                             style "ASSysInfoCopyright_text"
                             yalign 1.0

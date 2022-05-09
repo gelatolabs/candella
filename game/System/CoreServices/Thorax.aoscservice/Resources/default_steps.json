@@ -1,18 +1,18 @@
 [
     {
-        "name": "Welcome to Candella",
-        "detail": "Welcome to the Candella platform. We just need to take care of a couple of things before we can begin.",
+        "name": "Welcome to ChadOS",
+        "detail": "Welcome to the ChadOS platform. We just need to take care of a couple of things before we can begin.",
         "keyboard_input": false
     },
     {
         "name": "Set up an account",
-        "detail": "Type in the username you'd like to use when using Candella. This username will be used to create a special user file for you that apps and services can use to customize the Candella experience to you. This username may also be used as your in-game name.",
+        "detail": "Type in the username you'd like to use when using ChadOS. This username will be used to create a special user file for you that apps and services can use to customize the ChadOS experience to you. This username may also be used as your in-game name.",
         "keyboard_input": true,
         "callback": "create_user"
     },
     {
         "name": "You're all set!",
-        "detail": "Candella is ready to be used. We hope you like Candella as much as we did making it.",
+        "detail": "ChadOS is ready to be used. We hope you like ChadOS as much as we did making it.",
         "keyboard_input": false,
         "callback": "complete"
     }

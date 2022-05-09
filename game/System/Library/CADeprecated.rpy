@@ -17,7 +17,7 @@ init python in CADeprecated:
     import logging
     import warnings
 
-    __OS_VERSIONS = ["*", "apple-cinnamon", "bahama"]
+    __OS_VERSIONS = ["*", "apple-cinnamon", "bahama", "chadlet"]
 
     class CAMinimumVersionNotSupportedError(Exception):
         """The current OS version doesn't meet the minimum requirements."""

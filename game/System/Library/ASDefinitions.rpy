@@ -9,12 +9,10 @@
 init -1000:
 
     # MARK: OS release definitions
-    # These definitions are used as a means of identifying the current
-    # version of AliceOS provided with a
     define AS_SYS_INFO = {
-        "NAME": "Candella",
-        "VERSION": "21.01",
-        "COMMON_NAME": "Apple Cinnamon",
+        "NAME": "ChadOS",
+        "VERSION": "2095",
+        "COMMON_NAME": "chadlet",
         "CHANNEL": "stable",
         "BUILD_ID": "GITHASH"
     }

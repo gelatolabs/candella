@@ -1,10 +1,10 @@
 {
     "distribution": {
-        "name": "Candella",
-        "version": "22.05",
+        "name": "ChadOS",
+        "version": "2095",
         "build_id": "2022051-21926",
         "channel": "beta",
-        "codename": "bahama"
+        "codename": "chadlet"
     },
     "build_date": "2022-05-01T02:19:26.325403"
 }
